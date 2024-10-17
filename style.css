@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   background-color: gray;   
+}
+
+header{
+    background-image: linear-gradient(rgb(4, 134, 4), rgb(0, 70, 0));
+    padding: 20px;
+}
+header h1{
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+header nav{
+    
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+header nav a:hover{
+    color: rgb(6, 160, 6);
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+section.corpo{
+    width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px 3px rgba(0, 0, 0, 0.425);
+}
