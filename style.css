@@ -7,12 +7,13 @@
 }
 
 body{
-   background-color: gray;   
+   background-color: rgba(82, 245, 41, 0.712);   
 }
 
 header{
-    background-image: linear-gradient(rgb(4, 134, 4), rgb(0, 70, 0));
+    background-image: linear-gradient(rgb(82, 245, 41), rgb(3, 102, 3));
     padding: 20px;
+    
 }
 header h1{
     text-align: center;
@@ -21,19 +22,24 @@ header h1{
     color: white;
     font-weight: bold;
 }
-header nav{
-    
+header img#logo{
+   width: 400px;
+   margin: auto;
+   display: block;
+   padding: 20px; 
+   
 }
 header nav a{
     text-decoration: none;
     color: white;
     font-weight: bold;
     padding: 10px 20px;
+    
+    
 }
 header nav a:hover{
-    color: rgb(6, 160, 6);
-    background-color: white;
-    border-radius: 5px;
+    color: rgb(82, 245, 41);
+    
     
 }
 
@@ -45,4 +51,50 @@ section.corpo{
     background-color: white;
     border-radius: 5px;
     box-shadow: 3px 5px 8px 3px rgba(0, 0, 0, 0.425);
+}
+section.corpo ul.lista{
+    padding-left: 20px;
+}
+section.corpo ol.lista{
+    padding-left: 20px;
+}
+section.corpo ul.lista#material{
+    list-style: none;
+    padding-left: 0px;
+}
+section.corpo div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+section.corpo div#visao{
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+section.corpo div#historia{
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+section.corpo div#graduacao{
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+section.corpo div#beneficio{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+section.corpo div#lema{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+section.corpo div#inicio{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+section.corpo div h2{
+    color: rgb(0, 70, 0);
+    margin-bottom: 10px;
+}
+
+p.artigo{
+    text-align: justify;
 }
