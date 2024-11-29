@@ -118,6 +118,7 @@ section.corpo2 h2{
 section.fotos{
     column-count: 2;
     column-gap: 12px;
+    margin: 20px;
     
 }
 
